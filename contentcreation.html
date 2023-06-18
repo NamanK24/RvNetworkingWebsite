@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Branding & Marketing</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/main.css" />
+    
+  </head>
+
+  <!-- navbar section -->
+
+  <body class="bg-color-primary text-color-white tracking-wider">
+    <header class="sticky top-0 z-50">
+      <nav class="container flex justify-between items-center">
+        <div class="py-5 text-color-secondary font-bold text-3xl">
+          <a href="./index.html">
+            <span class="text-color-white">RV</span> Networking.
+          </a>
+        </div>
+        <div>
+          <ul class="hidden lg:flex items-center space-x-6">
+            <li>
+              <a
+                href="./index.html"
+                class="hover:text-color-secondary ease-in duration-200"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#contact"
+                class="hover:text-color-secondary ease-in duration-200"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <!-- Mobile screen  -->
+        <div id="hamburger" class="lg:hidden cursor-pointer z-50">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div
+          id="menu"
+          class="hidden bg-color-primary-dark h-[100vh] absolute inset-0"
+        >
+          <ul class="h-full grid place-items-center py-20">
+            <li>
+              <a
+                id="hLink"
+                href="./index.html"
+                class="hover:text-color-secondary ease-in duration-200"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                id="hLink"
+                href="#contact"
+                class="hover:text-color-secondary ease-in duration-200"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- footer section -->
+    <section id="contact" class="bg-color-primary-light">
+        <div class="container py-20">
+          <div class="text-center m-auto mb-20 md:w-1/2">
+            <h4 class="font-bold text-color-secondary mb-4">
+              Have A Questation
+            </h4>
+            <h1 class="title">Get In Touch</h1>
+          </div>
+
+          <form>
+            <div class="w-full m-auto text-center md:w-2/3">
+              <div
+                class="text-color-primary-dark grid gap-6 mb-6 md:grid-cols-2"
+              >
+                <input
+                  type="text"
+                  class="bg-gray-50 border border-gray-300 text-sm rounded-lg block w-full p-3 focus:outline-none focus:border-color-secondary"
+                  placeholder="Name"
+                />
+
+                <input
+                  type="email"
+                  class="bg-gray-50 border border-gray-300 text-sm rounded-lg block w-full p-3 focus:outline-none focus:border-color-secondary"
+                  placeholder="Email"
+                />
+
+                <input
+                  type="tel"
+                  class="bg-gray-50 border border-gray-300 text-sm rounded-lg block w-full p-3 focus:outline-none focus:border-color-secondary"
+                  placeholder="Phone"
+                />
+
+                <input
+                  type="text"
+                  class="bg-gray-50 border border-gray-300 text-sm rounded-lg block w-full p-3 focus:outline-none focus:border-color-secondary"
+                  placeholder="Company"
+                />
+              </div>
+
+              <textarea
+                rows="4"
+                class="text-color-primary-dark bg-gray-50 border border-gray-300 text-sm rounded-lg block w-full p-3 focus:outline-none focus:border-color-secondary"
+                placeholder="Message"
+              ></textarea>
+
+              <button class="btn mt-10">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section id="footer">
+        <div class="bg-color-primary-dark relative">
+          <div class="container py-10">
+            <div class="grid gap-10 md:grid-cols-3 pb-10">
+              <div class="space-y-6">
+                <h4 class="font-bold text-lg">About RV Networking</h4>
+                <p class="leading-relaxed">
+                  As we do a deep dive employing our entrepreneurial mindset on
+                  cross-platform content creation that aids in growing your
+                  audience and generating precise content, we keep our eye on
+                  improving your ROI.
+                </p>
+                <p>
+                 Phone: +91 70219 08518
+                </p>
+                <p>
+                    Email: info.rvnetworking@gmail.com
+                </p>
+                <div class="flex gap-5 items-center">
+                  <p>Follow Us</p>
+                  <i
+                    class="fa-brands fa-facebook-f cursor-pointer hover:text-color-secondary"
+                  ></i>
+                  <i
+                    class="fa-brands fa-twitter cursor-pointer hover:text-color-secondary"
+                  ></i>
+                  <i
+                    class="fa-brands fa-youtube cursor-pointer hover:text-color-secondary"
+                  ></i>
+                  <i
+                    class="fa-brands fa-instagram cursor-pointer hover:text-color-secondary"
+                  ></i>
+                  <i
+                    class="fa-brands fa-linkedin-in cursor-pointer hover:text-color-secondary"
+                  ></i>
+                </div>
+              </div>
+              <div class="flex justify-between md:justify-around">
+                <div class="space-y-6">
+                  <h4 class="font-bold text-lg">Quick Links</h4>
+                  <ul class="space-y-3">
+                    <li
+                      class="underline hover:no-underline hover:text-color-secondary"
+                    >
+                      <a href="#">Home</a>
+                    </li>
+                    <li
+                      class="underline hover:no-underline hover:text-color-secondary"
+                    >
+                      <a href="#about-us">About Us</a>
+                    </li>
+                    <li
+                      class="underline hover:no-underline hover:text-color-secondary"
+                    >
+                      <a href="#Our_Services">Services</a>
+                    </li>
+                    <li
+                      class="underline hover:no-underline hover:text-color-secondary"
+                    >
+                      <a href="#clients">Clients</a>
+                    </li>
+                    <li
+                      class="underline hover:no-underline hover:text-color-secondary"
+                    >
+                      <a href="#blog">Blog</a>
+                    </li>
+                    <li
+                      class="underline hover:no-underline hover:text-color-secondary"
+                    >
+                      <a href="#contact">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="space-y-6">
+                  <h4 class="font-bold text-lg">Help</h4>
+                  <ul class="space-y-3">
+                    <li
+                      class="underline hover:no-underline hover:text-color-secondary"
+                    >
+                      <a href="#about-us">About Us</a>
+                    </li>
+                    <li
+                      class="underline hover:no-underline hover:text-color-secondary"
+                    >
+                      <a href="#features">Partners</a>
+                    </li>
+                    <li
+                      class="underline hover:no-underline hover:text-color-secondary"
+                    >
+                      <a href="#testimonial">Career</a>
+                    </li>
+                    <li
+                      class="underline hover:no-underline hover:text-color-secondary"
+                    >
+                      <a href="#pricing">Reviews</a>
+                    </li>
+                    <li
+                      class="underline hover:no-underline hover:text-color-secondary"
+                    >
+                      <a href="#blog">Terms & Conditions</a>
+                    </li>
+                    <li
+                      class="underline hover:no-underline hover:text-color-secondary"
+                    >
+                      <a href="#contact">Help</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="space-y-6">
+                <h4 class="font-bold text-lg">Newsletter</h4>
+                <p class="leading-relaxed">
+                  Subscribe With Email And Loads Of News Will Be Sent To You
+                </p>
+                <div class="flex items-center">
+                  <input
+                    type="text"
+                    class="w-3/4 text-color-gray bg-color-white p-2 lg:p-3 rounded-l-md focus:outline-none"
+                    placeholder="Enter Your Email"
+                  />
+
+                  <button
+                    type="submit"
+                    class="bg-color-secondary px-4 py-2 lg:px-5 lg:py-3 rounded-r-md hover:opacity-90"
+                  >
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex justify-center pt-10 border-t border-color-gray">
+              <p>2023 &copy; NamanKumar. All Rights Reserved.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+     <script>
+      const navbar = document.querySelector("header");
+
+      const sectionn = document.querySelectorAll("section");
+      const navlinkss = document.querySelectorAll("nav ul li a");
+
+      window.onscroll = () => {
+        if (window.scrollY > 100) {
+          navbar.classList.add("bg-color-primary-dark");
+          navbar.classList.add("border-b");
+          navbar.classList.add("border-color-gray");
+        } else {
+          navbar.classList.remove("bg-color-primary-dark");
+          navbar.classList.remove("border-b");
+          navbar.classList.remove("border-color-gray");
+        }
+
+        // active link
+        let current = "home";
+
+        sectionn.forEach((section) => {
+          const sectionTop = section.offsetTop;
+          if (pageYOffset >= sectionTop - 60) {
+            current = section.getAttribute("id");
+          }
+        });
+        navlinkss.forEach((item) => {
+          item.classList.remove("text-color-secondary");
+          if (item.href.includes(current)) {
+            item.classList.add("text-color-secondary");
+          }
+        });
+      };
+
+      // Mobile menu
+      const hamburger = document.querySelector("#hamburger");
+      const menu = document.querySelector("#menu");
+      const hLink = document.querySelectorAll("#hLink");
+      const faSolid = document.querySelector(".fa-solid");
+
+      hamburger.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
+        faSolid.classList.toggle("fa-xmark");
+      });
+
+      hLink.forEach((link) => {
+        link.addEventListener("click", () => {
+          menu.classList.toggle("hidden");
+          faSolid.classList.toggle("fa-xmark");
+        });
+      });
+    </script>
+
+    
+  </body>
+</html>
